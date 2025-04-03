@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">DeezRespect</h1>
+        <ul>
+          <li><a href="#sobre-mi">About me</a></li>
+          <li><a href="#proyectos">Projects</a></li>
+          <li><a href="#contacto">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi" class="container">
+      <h2>About me</h2>
+      <p>Junior web developer from Argentina with a passion for technology and automation. I specialize in delivering efficient AI-driven solutions and modern, user-centric websites tailored to enhance your business. Reliable, streamlined projects with a focus on quality and tangible outcomes.
+
+      </p>
+    </section>
+    
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="container">
+      <h2>Projects</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <h3>Project 1</h3>
+          <p>Descripción breve del proyecto 1.</p>
+        </div>
+        <div class="proyecto">
+          <h3>Project 2</h3>
+          <p>Descripción breve del proyecto 2.</p>
+        </div>
+        <div class="proyecto">
+          <h3>Project 3</h3>
+          <p>Descripción breve del proyecto 3.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Sección Contacto -->
+    <section id="contacto" class="container">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="nombre">Name:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Message:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit">Sumbit</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 DeezRespect. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
